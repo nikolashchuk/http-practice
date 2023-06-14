@@ -47,7 +47,7 @@ export class BreedSelect extends Component {
           isLoading={isLoading}
           onChange={option => onSelect(option.value)}
         />
-        ;{error && <b>{error}</b>}
+        {error && <b>{error}</b>}
       </div>
     );
   }
